@@ -1,0 +1,51 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 80%;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 4px 2px;
+}
+
+#generate{
+    padding: 8px 16px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    border: none;
+    background-color: aqua;
+    columns: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#generate:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+h1{
+    color: darkblue;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#display{
+    padding: 25px;
+    height: auto;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.para{
+    width: 100%;
+    background-color: darkblue;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
